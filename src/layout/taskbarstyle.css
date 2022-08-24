@@ -17,3 +17,7 @@
   width: 30px;
   /* padding: 7px; */
 }
+button {
+  background-color: transparent;
+  border: none;
+}
