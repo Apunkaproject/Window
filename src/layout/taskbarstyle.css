@@ -1,6 +1,6 @@
 .task-bar {
   width: 100%;
-  height: 55px;
+  height: 52px;
   background-image: linear-gradient(135deg, #20371f 30%, #5400a8 100%);
 }
 .taskbar-icon:hover {
@@ -10,7 +10,10 @@
   border-radius: 6px;
 }
 .taskbar-icon {
+  color: white;
   padding: 7px;
+  font-size: 12px;
+  font-weight: 500;
   margin: 0px 5px;
 }
 .profile-image:active {
@@ -25,4 +28,11 @@ button {
 .task-bar {
   position: absolute;
   bottom: 0;
+}
+.task-icon {
+  /* margin: 0px 5px; */
+}
+.right-side-tool {
+  position: absolute;
+  right: 0;
 }
