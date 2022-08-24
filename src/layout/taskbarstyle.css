@@ -16,6 +16,7 @@
 .profile-image:active {
   width: 30px;
   /* padding: 7px; */
+  transition: width 0.2s ;
 }
 button {
   background-color: transparent;

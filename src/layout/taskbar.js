@@ -6,6 +6,8 @@ import MicrosoftEdge from "../assets/Taskbar/Microsoft-Edge.png";
 import Notepad from "../assets/Taskbar/Notepad.png";
 import windows11 from "../assets/Taskbar/windows11.png";
 import word from "../assets/Taskbar/word.png";
+import figma from "../assets/Taskbar/figma.png";
+import vscode from "../assets/Taskbar/vscode.png";
 function TaskBar() {
   return (
     <>
@@ -28,33 +30,50 @@ function TaskBar() {
               width={35}
               preview={false}
               className="profile-image"
-              src={Word}
+              src={excellogo}
             />
           </button>
-          <div className="taskbar-icon">
+        
+          <button className="taskbar-icon">
             <Image
               width={35}
               preview={false}
               className="profile-image"
               src={MicrosoftEdge}
             />
-          </div>
-          <div className="taskbar-icon">
+          </button>
+          <button className="taskbar-icon">
             <Image
-              width={35}
+              width={32}
               preview={false}
               className="profile-image"
               src={Notepad}
             />
-          </div>
-          <div className="taskbar-icon">
+          </button>
+          <button className="taskbar-icon">
             <Image
               width={35}
               preview={false}
               className="profile-image"
               src={word}
             />
-          </div>
+          </button>
+          <button className="taskbar-icon">
+            <Image
+              width={35}
+              preview={false}
+              className="profile-image"
+              src={figma}
+            />
+          </button>
+          <button className="taskbar-icon">
+            <Image
+              width={35}
+              preview={false}
+              className="profile-image"
+              src={vscode}
+            />
+          </button>
         </Row>
       </Row>
     </>
