@@ -14,11 +14,15 @@
   margin: 0px 5px;
 }
 .profile-image:active {
-  width: 30px;
+  width: 20px;
   /* padding: 7px; */
-  transition: width 0.2s ;
+  transition: width 0.2s;
 }
 button {
   background-color: transparent;
   border: none;
+}
+.task-bar {
+  position: absolute;
+  bottom: 0;
 }
