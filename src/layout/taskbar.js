@@ -1,4 +1,4 @@
-import { Row, Image } from "antd";
+import { Row, Image, Button } from "antd";
 import "./taskbarstyle.css";
 import excellogo from "../assets/Taskbar/excel-logo.png";
 import folder from "../assets/Taskbar/folder.png";
@@ -15,36 +15,28 @@ function TaskBar() {
         style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
       >
         <Row align="middle" justify="center" className="task-bar">
-          <div className="taskbar-icon">
+          <button className="taskbar-icon">
             <Image
               width={35}
               preview={false}
               className="profile-image"
               src={windows11}
             />
-          </div>
+          </button>
+          <button className="taskbar-icon">
+            <Image
+              width={35}
+              preview={false}
+              className="profile-image"
+              src={Word}
+            />
+          </button>
           <div className="taskbar-icon">
             <Image
               width={35}
               preview={false}
               className="profile-image"
               src={MicrosoftEdge}
-            />
-          </div>
-          <div className="taskbar-icon">
-            <Image
-              width={35}
-              preview={false}
-              className="profile-image"
-              src={folder}
-            />
-          </div>
-          <div className="taskbar-icon">
-            <Image
-              width={35}
-              preview={false}
-              className="profile-image"
-              src={excellogo}
             />
           </div>
           <div className="taskbar-icon">

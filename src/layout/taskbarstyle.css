@@ -13,3 +13,11 @@
   padding: 7px;
   margin: 0px 5px;
 }
+.profile-image:active {
+  width: 30px;
+  /* padding: 7px; */
+}
+button {
+  background-color: transparent;
+  border: none;
+}
