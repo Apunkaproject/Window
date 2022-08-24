@@ -8,6 +8,12 @@ import windows11 from "../assets/Taskbar/windows11.png";
 import word from "../assets/Taskbar/word.png";
 import figma from "../assets/Taskbar/figma.png";
 import vscode from "../assets/Taskbar/vscode.png";
+import upper from "../assets/Icon/upper.png";
+import wifi from "../assets/Icon/wifi.png";
+import sound from "../assets/Icon/sound.png";
+import fa_battery from "../assets/Icon/fa_battery.png";
+import moon from "../assets/Icon/moon.png";
+
 function TaskBar() {
   const iconsize = 28;
   return (
