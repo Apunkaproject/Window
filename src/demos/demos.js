@@ -8,9 +8,7 @@ function DemoScreen() {
         justify="center"
         style={{ width: "100%", height: "100%", backgroundColor: "gray" }}
       >
-        <Col >
-          <h1>Demo Screen</h1>
-        </Col>
+        hello
       </Row>
     </>
   );
