@@ -50,3 +50,6 @@
 .rightbtninner {
   /* padding: "0px 10px"; */
 }
+.desktop-folder:hover {
+  background-color: rgba(255, 184, 253, 0.132);
+}
