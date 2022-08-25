@@ -4,6 +4,14 @@ import TaskBar from "../layout/taskbar";
 import viewlogo from "../assets/desktop/rightclick/view.png";
 import Draggable from "react-draggable";
 import view from "../assets/ui/view.png";
+import shortby from "../assets/ui/sort.png";
+import refresh from "../assets/ui/refresh.png";
+import paste from "../assets/ui/paste.png";
+import New from "../assets/ui/new.png";
+import Dpset from "../assets/ui/display.png";
+import personalize from "../assets/ui/personalize.png";
+import openin from "../assets/ui/openin.png";
+import more from "../assets/ui/more.png";
 import "./desktop.css";
 
 function DeskTop() {
@@ -24,26 +32,38 @@ function DeskTop() {
     },
     {
       lable: "Short By",
-      icon: view,
+      icon: shortby,
     },
     {
       lable: "Refrash",
+      icon: refresh,
+    },
+    {
+      lable: "Paste",
+      icon: paste,
     },
     {
       lable: "New",
+      icon: New,
+    
     },
     {
       lable: "Display settings",
+      icon: Dpset,
     },
     {
       lable: "Persinalize",
+      icon: personalize,
     },
     {
       lable: "Open in terminal",
+      icon: openin,
     },
     {
       lable: "Show more Options",
+      icon: more,
     },
+   
   ];
   return (
     <>

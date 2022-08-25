@@ -154,16 +154,16 @@ function TaskBar() {
               style={{ width: "90px", height: "20px", padding: "0px 5px" }}
             >
               {isonline ? (
-                <Image width={20} preview={false} src={wifi} />
+                <Image width={16} preview={false} src={wifi} />
               ) : (
-                <Image width={20} preview={false} src={wifioff} />
+                <Image width={16} preview={false} src={wifioff} />
               )}
-              <Image width={20} preview={false} src={sound} />
+              <Image width={16} preview={false} src={sound} />
 
               {ischarging ? (
-                <Image width={20} preview={false} src={batterycharge} />
+                <Image width={16} preview={false} src={batterycharge} />
               ) : (
-                <Image width={20} preview={false} src={battery} />
+                <Image width={16} preview={false} src={battery} />
               )}
             </Row>
           </button>
