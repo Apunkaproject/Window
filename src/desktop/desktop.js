@@ -81,12 +81,12 @@ function DeskTop() {
               align="middle"
               justify="center"
               style={{
-                margin: "20px",
+                margin: "10px",
                 padding: "5px",
                 width: "80px",
                 height: "80px",
                 // backgroundColor: "white",
-                borderRadius: "10px",
+                borderRadius: "5px",
               }}
             >
               <Col>
