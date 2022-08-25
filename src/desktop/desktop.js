@@ -12,7 +12,14 @@ import Dpset from "../assets/ui/display.png";
 import personalize from "../assets/ui/personalize.png";
 import openin from "../assets/ui/openin.png";
 import more from "../assets/ui/more.png";
+import destop from "../assets/desktop/icon/destop.png";
+import network from "../assets/desktop/icon/network.png";
+import reciclebin from "../assets/desktop/icon/reciclebin.png";
+import corme from "../assets/desktop/icon/corme.png";
+import dstpfolder from "../assets/desktop/icon/dstpfolder.png";
+
 import "./desktop.css";
+import StartWindow from "../components/StartWindow/startwindow";
 
 function DeskTop() {
   const [isRightClick, setIsRightClick] = useState(false);
@@ -28,23 +35,23 @@ function DeskTop() {
   const desktopfolder = [
     {
       folderName: "Desktop",
-      icon: view,
+      icon: destop,
     },
     {
       folderName: "Desktop",
-      icon: view,
+      icon: network,
     },
     {
       folderName: "Desktop",
-      icon: view,
+      icon: reciclebin,
     },
     {
       folderName: "Desktop",
-      icon: view,
+      icon: corme,
     },
     {
       folderName: "Desktop",
-      icon: view,
+      icon: dstpfolder,
     },
   ];
   const rightclickMenus = [
@@ -134,6 +141,7 @@ function DeskTop() {
             </Row>
           ))}
         </Col>
+        <StartWindow/>
         <TaskBar />
       </Row>
     </>
