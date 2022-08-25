@@ -38,12 +38,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -61,12 +56,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -84,12 +74,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -107,12 +92,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -130,12 +110,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -153,12 +128,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -182,12 +152,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -205,12 +170,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -228,12 +188,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -251,12 +206,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -274,12 +224,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -297,12 +242,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -335,12 +275,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -350,12 +285,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -365,12 +295,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -382,12 +307,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -397,12 +317,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -412,12 +327,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
