@@ -51,12 +51,7 @@ function StartWindow() {
                     justify="center"
                     style={{ width: "100%" }}
                   >
-                    <Image
-                      width={iconsize}
-                      preview={false}
-                      className="profile-image"
-                      src={edge}
-                    />
+                    <Image width={iconsize} preview={false} src={edge} />
                   </Row>
                   <Row
                     align="middle"
@@ -78,7 +73,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={word}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -101,7 +96,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={code}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -124,7 +119,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={excel}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -147,7 +142,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={dstpfolder}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -170,7 +165,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={figma}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -199,7 +194,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={music}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -222,7 +217,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={store}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -245,7 +240,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={oneNote}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -268,7 +263,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={powerpoint}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -291,7 +286,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={Notepad}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -314,7 +309,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={video}
+                      src={edge}
                     />
                   </Row>
                   <Row
@@ -352,7 +347,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={word}
+                    src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Word</div>
@@ -363,12 +358,7 @@ function StartWindow() {
                   className="Recommandedapp"
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
-                  <Image
-                    width={iconsize}
-                    preview={false}
-                    className="profile-image"
-                    src={edge}
-                  />
+                  <Image width={iconsize} preview={false} src={edge} />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
@@ -382,7 +372,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={figma}
+                    src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Figma</div>
@@ -399,7 +389,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={Notepad}
+                    src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Notepad</div>
@@ -414,7 +404,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={powerpoint}
+                    src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Power Point</div>
@@ -429,8 +419,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={corme}
-                  
+                    src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Corem</div>
@@ -441,6 +430,41 @@ function StartWindow() {
             </Row>
           </div>
           {/* recommandded */}
+
+          {/* profile section  */}
+          <Row
+            // align="middle"
+            justify="space-between"
+            className="profilesect"
+            style={{ width: "100%", padding: "20px" }}
+          >
+            <Row>
+              <Row align="middle">
+                <Image width={30} preview={false} src={edge} />
+              </Row>
+              <Row align="middle">
+                <div style={{ marginLeft: "10px" }}>Nitish Kumar</div>
+              </Row>
+            </Row>
+            <Row align="middle" justify="space-between">
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+            </Row>
+          </Row>
+          {/* end profile section  */}
         </Col>
       </Row>
     </>
