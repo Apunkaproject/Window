@@ -64,28 +64,28 @@ function DeskTop(props) {
     },
     {
       folderName: "VS Code",
-      // icon: code,
+      icon: code,
     },
     {
       folderName: "Figma",
-      // icon: figma,
+      icon: figma,
     },
 
     {
       folderName: "One Note",
-      // icon: oneNote,
+      icon: oneNote,
     },
     {
       folderName: "Music",
-      // icon: music,
+      icon: music,
     },
     {
       folderName: "Paint",
-      // icon: paint,
+      icon: paint,
     },
     {
       folderName: "Play Store",
-      // icon: store,
+      icon: store,
     },
     {
       folderName: "Excel",
