@@ -5,7 +5,7 @@ import edge from "../../assets/Taskbar/edge.png";
 const { Search } = Input;
 function StartWindow() {
   const onSearch = (value) => console.log(value);
-
+  const iconsize = 35;
   return (
     <>
       <Row className="start-windows">
@@ -39,7 +39,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -62,7 +62,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -85,7 +85,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -108,7 +108,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -131,7 +131,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -154,7 +154,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -183,7 +183,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -206,7 +206,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -229,7 +229,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -252,7 +252,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -275,7 +275,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -298,7 +298,7 @@ function StartWindow() {
                     style={{ width: "100%" }}
                   >
                     <Image
-                      width={50}
+                      width={iconsize}
                       preview={false}
                       className="profile-image"
                       src={edge}
@@ -336,13 +336,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
@@ -351,13 +351,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
@@ -366,13 +366,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
@@ -383,13 +383,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
@@ -398,13 +398,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
@@ -413,13 +413,13 @@ function StartWindow() {
                   style={{ padding: "10px", marginBottom: "10px" }}
                 >
                   <Image
-                    width={50}
+                    width={iconsize}
                     preview={false}
                     className="profile-image"
                     src={edge}
                   />
                   <Col style={{ marginLeft: "10px" }}>
-                    <div style={{ fontSize: "18px" }}>Edge</div>
+                    <div style={{ fontSize: "15px" }}>Edge</div>
                     <div style={{ fontSize: "13px" }}>Recently Added</div>
                   </Col>
                 </Row>
