@@ -42,3 +42,11 @@ button {
   position: absolute;
   right: 0;
 }
+/* .task-bar::after{
+  content: '';
+  width: 0%;
+  height: 10px;
+  background: #14f043;
+  display: block;
+  transition: 0.5s;
+} */
