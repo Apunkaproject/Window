@@ -3,6 +3,7 @@ import { useState } from "react";
 import TaskBar from "../layout/taskbar";
 import viewlogo from "../assets/desktop/rightclick/view.png";
 import Draggable from "react-draggable";
+import view from "../assets/ui/view.png";
 import "./desktop.css";
 
 function DeskTop() {
@@ -18,10 +19,12 @@ function DeskTop() {
   };
   const rightclickMenus = [
     {
-      lable: "Home",
+      lable: "View",
+      icon: view,
     },
     {
       lable: "Short By",
+      icon: view,
     },
     {
       lable: "Refrash",
@@ -77,7 +80,7 @@ function DeskTop() {
                           width={15}
                           preview={false}
                           className="profile-image"
-                          src={viewlogo}
+                          src={e.icon}
                         />
                       </div>
                       <div style={{ marginLeft: "15px" }}>{e.lable}</div>
