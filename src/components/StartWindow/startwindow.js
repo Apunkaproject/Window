@@ -1,6 +1,5 @@
-import { Row, Col, Image } from "antd";
+import { Row, Col, Image,Input } from "antd";
 import "./startwindow.css";
-import { Input } from "antd";
 import edge from "../../assets/Taskbar/edge.png";
 import word from "../../assets/desktop/icon/word.png";
 import code from "../../assets/desktop/icon/code.png";

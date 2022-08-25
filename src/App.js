@@ -5,14 +5,18 @@ import TaskBar from "./layout/taskbar";
 import DeskTop from "./desktop/desktop";
 import StartWindow from "./components/StartWindow/startwindow";
 import Demo from "./demos/demos";
+import LockScreen from "./screens/LockScreen/lockscreen";
+import Login from "./screens/LockScreen/login";
 function App() {
   return (
     <>
       {/* <DemoScreen /> */}
       {/* <TaskBar /> */}
       {/* <DeskTop /> */}
-      <Demo />
+      {/* <Demo /> */}
       {/* <StartWindow/> */}
+      {/* <LockScreen /> */}
+      <Login />
     </>
   );
 }
