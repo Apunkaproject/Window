@@ -25,6 +25,28 @@ function DeskTop() {
     // setTimeout(() => setIsRightClick(false), 250);
     console.log(isRightClick);
   };
+  const desktopfolder = [
+    {
+      folderName: "Desktop",
+      icon: view,
+    },
+    {
+      folderName: "Desktop",
+      icon: view,
+    },
+    {
+      folderName: "Desktop",
+      icon: view,
+    },
+    {
+      folderName: "Desktop",
+      icon: view,
+    },
+    {
+      folderName: "Desktop",
+      icon: view,
+    },
+  ];
   const rightclickMenus = [
     {
       lable: "View",
@@ -73,70 +95,46 @@ function DeskTop() {
         style={{ width: "100%", height: "100%" }}
       >
         <Col style={{ width: "100%", height: "100%" }}>
-          {isRightClick && (
-            <Draggable>
-              <Col
-                className="onrightclick"
-                style={{
-                  width: "300px",
-                  height: "350px",
-                }}
-              >
-                {rightclickMenus.map((e) => (
-                  <button className="rightbtn">
-                    <Row
-                      className="rightbtninner"
-                      align="middle"
-                      // justify="center"
-                      style={{
-                        width: "100%",
-                        height: "30px",
-                        //   backgroundColor: "gray",
-                      }}
-                    >
-                      <div>
-                        <Image
-                          style={{ marginLeft: "5px" }}
-                          width={15}
-                          preview={false}
-                          className="profile-image"
-                          src={e.icon}
-                        />
-                      </div>
-                      <div style={{ marginLeft: "15px" }}>{e.lable}</div>
-                    </Row>
-                  </button>
-                ))}
-              </Col>
-            </Draggable>
-          )}
-          <Draggable>
-            <div
+          {desktopfolder.map((e) => (
+            <Row
+              className="desktop-folder"
+              align="middle"
+              justify="center"
               style={{
-                backgroundColor: "white",
-                width: "100px",
-                height: "100px",
                 margin: "10px",
+                padding: "5px",
+                width: "80px",
+                height: "80px",
+                // backgroundColor: "white",
+                borderRadius: "5px",
               }}
             >
-              sds
-            </div>
-          </Draggable>
-          <Draggable>
-            <div
-              style={{
-                backgroundColor: "white",
-                width: "100px",
-                height: "100px",
-                margin: "10px",
-              }}
-            >
-              sds
-            </div>
-          </Draggable>
+              <Col>
+                <Row
+                  justify="center"
+                  style={{
+                    width: "100%",
+                  }}
+                >
+                  <Image style={{}} width={30} preview={false} src={e.icon} />
+                </Row>
 
-          <TaskBar />
+                <Row
+                  justify="center"
+                  style={{
+                    width: "100%",
+                    fontSize: "10px",
+                    fontWeight: "600",
+                    color: "white",
+                  }}
+                >
+                  {e.folderName}
+                </Row>
+              </Col>
+            </Row>
+          ))}
         </Col>
+        <TaskBar />
       </Row>
     </>
   );
