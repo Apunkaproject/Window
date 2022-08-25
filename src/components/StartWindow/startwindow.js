@@ -14,7 +14,7 @@ import powerpoint from "../../assets/desktop/icon/powerpoint.png";
 import Notepad from "../../assets/desktop/icon/Notepad.png";
 import video from "../../assets/desktop/icon/vid.png";
 import corme from "../../assets/desktop/icon/corme.png";
-
+import userprofile from "../../assets/ui/defAccount.png";
 const { Search } = Input;
 function StartWindow() {
   const onSearch = (value) => console.log(value);
@@ -73,7 +73,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={word}
                     />
                   </Row>
                   <Row
@@ -96,7 +96,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={code}
                     />
                   </Row>
                   <Row
@@ -119,7 +119,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={excel}
                     />
                   </Row>
                   <Row
@@ -142,7 +142,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={dstpfolder}
                     />
                   </Row>
                   <Row
@@ -165,7 +165,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={figma}
                     />
                   </Row>
                   <Row
@@ -194,7 +194,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={music}
                     />
                   </Row>
                   <Row
@@ -217,7 +217,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={store}
                     />
                   </Row>
                   <Row
@@ -240,7 +240,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={oneNote}
                     />
                   </Row>
                   <Row
@@ -263,7 +263,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={powerpoint}
                     />
                   </Row>
                   <Row
@@ -286,7 +286,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={Notepad}
                     />
                   </Row>
                   <Row
@@ -309,7 +309,7 @@ function StartWindow() {
                       width={iconsize}
                       preview={false}
                       className="profile-image"
-                      src={edge}
+                      src={video}
                     />
                   </Row>
                   <Row
@@ -347,7 +347,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={edge}
+                    src={word}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Word</div>
@@ -372,7 +372,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={edge}
+                    src={figma}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Figma</div>
@@ -389,7 +389,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={edge}
+                    src={Notepad}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Notepad</div>
@@ -404,7 +404,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={edge}
+                    src={powerpoint}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Power Point</div>
@@ -419,7 +419,7 @@ function StartWindow() {
                     width={iconsize}
                     preview={false}
                     className="profile-image"
-                    src={edge}
+                    src={corme}
                   />
                   <Col style={{ marginLeft: "10px" }}>
                     <div style={{ fontSize: "15px" }}>Corem</div>
@@ -440,7 +440,7 @@ function StartWindow() {
           >
             <Row>
               <Row align="middle">
-                <Image width={30} preview={false} src={edge} />
+                <Image width={30} preview={false} src={userprofile} />
               </Row>
               <Row align="middle">
                 <div style={{ marginLeft: "10px" }}>Nitish Kumar</div>
