@@ -73,7 +73,7 @@ function TaskBar() {
   };
   // modal end
   // windows btn
-  const [iswbtnclick, setWbtnclick] = useState(false);
+  const [iswbtnclick, setWbtnclick] = useState(true);
   function Wbtnclick() {
     setWbtnclick(!iswbtnclick);
     console.log(iswbtnclick);
