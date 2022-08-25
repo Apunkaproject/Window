@@ -5,11 +5,11 @@ import { useBattery } from "react-use";
 import excellogo from "../assets/Taskbar/excel-logo.png";
 import folder from "../assets/Taskbar/folder.png";
 import MicrosoftEdge from "../assets/Taskbar/Microsoft-Edge.png";
-import Notepad from "../assets/Taskbar/notepad.png";
-import windows11 from "../assets/Taskbar/windows11.png";
-import word from "../assets/Taskbar/word.jpg";
+import store from "../assets/Taskbar/store.png";
+import windows11 from "../assets/Taskbar/home.png";
+import word from "../assets/Taskbar/winWord.png";
 import figma from "../assets/Taskbar/figma.png";
-import vscode from "../assets/Taskbar/vscode.png";
+import settings from "../assets/Taskbar/settings.png";
 import upper from "../assets/Icon/upper.png";
 import wifi from "../assets/Icon/wifi.png";
 import wifioff from "../assets/Icon/wifioff.png";
@@ -110,7 +110,7 @@ function TaskBar() {
             width={iconsize}
             preview={false}
             className="profile-image"
-            src={Notepad}
+            src={store}
           />
         </button>
         <button className="taskbar-icon">
@@ -134,7 +134,7 @@ function TaskBar() {
             width={iconsize}
             preview={false}
             className="profile-image"
-            src={vscode}
+            src={settings}
           />
         </button>
         <Row className="right-side-tool">
