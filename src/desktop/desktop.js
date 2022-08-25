@@ -16,7 +16,12 @@ import destop from "../assets/desktop/icon/destop.png";
 import network from "../assets/desktop/icon/network.png";
 import reciclebin from "../assets/desktop/icon/reciclebin.png";
 import corme from "../assets/desktop/icon/corme.png";
-import dstpfolder from "../assets/desktop/icon/dstpfolder.png";
+import code from "../assets/desktop/icon/code.png";
+import figma from "../assets/desktop/icon/figma.png";
+import oneNote from "../assets/desktop/icon/oneNote.png";
+import  music from "../assets/desktop/icon/music.png";
+import paint from "../assets/desktop/icon/paint.png";
+import store from "../assets/desktop/icon/store.png";
 
 import "./desktop.css";
 import StartWindow from "../components/StartWindow/startwindow";
@@ -38,20 +43,41 @@ function DeskTop() {
       icon: destop,
     },
     {
-      folderName: "Desktop",
+      folderName: "Network",
       icon: network,
     },
     {
-      folderName: "Desktop",
+      folderName: "Recilce Bin",
       icon: reciclebin,
     },
     {
-      folderName: "Desktop",
+      folderName: "Crome",
       icon: corme,
     },
     {
-      folderName: "Desktop",
-      icon: dstpfolder,
+      folderName: "VS Code",
+      icon: code,
+    },
+    {
+      folderName: "Figma",
+      icon: figma,
+    },
+   
+    {
+      folderName: "One Note",
+      icon: oneNote,
+    },
+    {
+      folderName: "Music",
+      icon: music,
+    },
+    {
+      folderName: "Paint",
+      icon: paint,
+    },
+    {
+      folderName: "Play Store",
+      icon: store,
     },
   ];
   const rightclickMenus = [
