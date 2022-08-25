@@ -11,12 +11,37 @@ function DeskTop() {
   const handleContextMenu = (e) => {
     e.preventDefault();
 
-    setIsRightClick(true);
+    setIsRightClick(!isRightClick);
 
-    setTimeout(() => setIsRightClick(false), 250);
+    // setTimeout(() => setIsRightClick(false), 250);
     console.log(isRightClick);
   };
-
+  const rightclickMenus = [
+    {
+      lable: "Home",
+    },
+    {
+      lable: "Short By",
+    },
+    {
+      lable: "Refrash",
+    },
+    {
+      lable: "New",
+    },
+    {
+      lable: "Display settings",
+    },
+    {
+      lable: "Persinalize",
+    },
+    {
+      lable: "Open in terminal",
+    },
+    {
+      lable: "Show more Options",
+    },
+  ];
   return (
     <>
       <Row
@@ -25,38 +50,44 @@ function DeskTop() {
         style={{ width: "100%", height: "100%" }}
       >
         <Col style={{ width: "100%", height: "100%" }}>
+          {isRightClick && (
+            <Draggable>
+              <Col
+                className="onrightclick"
+                style={{
+                  width: "300px",
+                  height: "350px",
+                }}
+              >
+                {rightclickMenus.map((e) => (
+                  <button className="rightbtn">
+                    <Row
+                      className="rightbtninner"
+                      align="middle"
+                      // justify="center"
+                      style={{
+                        width: "100%",
+                        height: "30px",
+                        //   backgroundColor: "gray",
+                      }}
+                    >
+                      <div>
+                        <Image
+                          style={{ marginLeft: "5px" }}
+                          width={15}
+                          preview={false}
+                          className="profile-image"
+                          src={viewlogo}
+                        />
+                      </div>
+                      <div style={{ marginLeft: "15px" }}>{e.lable}</div>
+                    </Row>
+                  </button>
+                ))}
+              </Col>
+            </Draggable>
+          )}
           <Draggable>
-            {/* <Col
-              className="onrightclick"
-              style={{
-                width: "300px",
-                height: "350px",
-              }}
-            >
-              <button className="rightbtn">
-                <Row
-                  className="rightbtninner"
-                  align="middle"
-                  style={{
-                    width: "100%",
-                    height: "30px",
-                    //   backgroundColor: "gray",
-                  }}
-                >
-                  <div>
-                    <Image
-                      style={{ marginLeft: "5px" }}
-                      width={15}
-                      preview={false}
-                      className="profile-image"
-                      src={viewlogo}
-                    />
-                  </div>
-                  <div style={{ marginLeft: "15px" }}>View</div>
-                </Row>
-              </button>
-            </Col> */}
-
             <div
               style={{
                 backgroundColor: "white",

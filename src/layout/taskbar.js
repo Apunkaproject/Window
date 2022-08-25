@@ -5,9 +5,9 @@ import { useBattery } from "react-use";
 import excellogo from "../assets/Taskbar/excel-logo.png";
 import folder from "../assets/Taskbar/folder.png";
 import MicrosoftEdge from "../assets/Taskbar/Microsoft-Edge.png";
-import Notepad from "../assets/Taskbar/Notepad.png";
+import Notepad from "../assets/Taskbar/notepad.png";
 import windows11 from "../assets/Taskbar/windows11.png";
-import word from "../assets/Taskbar/word.png";
+import word from "../assets/Taskbar/word.jpg";
 import figma from "../assets/Taskbar/figma.png";
 import vscode from "../assets/Taskbar/vscode.png";
 import upper from "../assets/Icon/upper.png";
@@ -35,7 +35,7 @@ function TaskBar() {
     }
   });
   // battery funcation end
-  const iconsize = 28;
+  const iconsize = 24;
   const [isonline, setIsonline] = useState(true);
   const imonline = () => {
     setIsonline(true);
