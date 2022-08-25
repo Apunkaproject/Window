@@ -337,6 +337,41 @@ function StartWindow() {
             </Row>
           </div>
           {/* recommandded */}
+
+          {/* profile section  */}
+          <Row
+            // align="middle"
+            justify="space-between"
+            className="profilesect"
+            style={{ width: "100%", padding: "20px" }}
+          >
+            <Row>
+              <Row align="middle">
+                <Image width={30} preview={false} src={edge} />
+              </Row>
+              <Row align="middle">
+                <div style={{ marginLeft: "10px" }}>Nitish Kumar</div>
+              </Row>
+            </Row>
+            <Row align="middle" justify="space-between">
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+              <button className="profilemorebtn">
+                <Image width={20} preview={false} src={edge} />
+              </button>
+            </Row>
+          </Row>
+          {/* end profile section  */}
         </Col>
       </Row>
     </>
