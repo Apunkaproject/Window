@@ -18,11 +18,14 @@ import battery from "../assets/Icon/fa_battery.png";
 import batterycharge from "../assets/Icon/chargingbatry.png";
 import moon from "../assets/Icon/moon.png";
 import moment from "moment";
+import DeskTop from "../desktop/desktop";
+import StartWindow from "../components/StartWindow/startwindow";
 
 function TaskBar() {
   // battery funcation
   const batteryState = useBattery();
   const [ischarging, setIscharging] = useState();
+  const name3 = "smnsdhf";
   useEffect(() => {
     let timer = null;
 
@@ -65,7 +68,17 @@ function TaskBar() {
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+  const startButtonClick = () => {
+    console.log("hello");
+  };
   // modal end
+  // windows btn
+  const [iswbtnclick, setWbtnclick] = useState(false);
+  function Wbtnclick() {
+    setWbtnclick(!iswbtnclick);
+    console.log(iswbtnclick);
+  }
+  //windows btn nd
   return (
     <>
       <Modal
@@ -79,8 +92,9 @@ function TaskBar() {
         <p>Some contents...</p>
         <p>Some contents...</p>
       </Modal>
+      {iswbtnclick && <StartWindow />}
       <Row align="middle" justify="center" className="task-bar">
-        <button className="taskbar-icon" onClick={showModal}>
+        <button className="taskbar-icon" onClick={Wbtnclick}>
           <Image
             width={iconsize}
             preview={false}
