@@ -18,3 +18,16 @@
   height: 45px;
   background-color: rgb(72, 72, 72);
 }
+
+.start-windows {
+  animation: slideup 1s;
+}
+
+@keyframes slideup {
+  0% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: 9%;
+  }
+}

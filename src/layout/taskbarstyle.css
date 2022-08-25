@@ -3,6 +3,7 @@
   --dark: rgba(32, 32, 32, 0.75);
 }
 .task-bar {
+  overflow-y: hidden;
   width: 100%;
   height: 48px;
   /* background-image: linear-gradient(135deg, #20371f 30%, #5400a8 100%); */
