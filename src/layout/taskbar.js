@@ -20,6 +20,7 @@ import moon from "../assets/Icon/moon.png";
 import moment from "moment";
 import DeskTop from "../desktop/desktop";
 import StartWindow from "../components/StartWindow/startwindow";
+import WifiSoundBtry from "../components/wifisountbattery/wifisoundbtry";
 
 function TaskBar() {
   // battery funcation
@@ -79,6 +80,13 @@ function TaskBar() {
     console.log(iswbtnclick);
   }
   //windows btn nd
+
+  // wifi section
+  const [iswificlick, setIswificlick] = useState(true);
+  const Onwificlick = () => {
+    console.log("Wifi click", iswificlick);
+    setIswificlick(!iswificlick);
+  };
   return (
     <>
       <Modal
@@ -93,6 +101,7 @@ function TaskBar() {
         <p>Some contents...</p>
       </Modal>
       {iswbtnclick && <StartWindow />}
+      {iswificlick && <WifiSoundBtry />}
       <Row align="middle" justify="center" className="task-bar">
         <button className="taskbar-icon" onClick={Wbtnclick}>
           <Image
@@ -161,7 +170,7 @@ function TaskBar() {
               <div style={{ padding: "0px", marginTop: "0px" }}>IN</div>
             </Col>
           </button>
-          <button className="taskbar-icon">
+          <button className="taskbar-icon" onClick={Onwificlick}>
             <Row
               align="middle"
               justify="space-between"

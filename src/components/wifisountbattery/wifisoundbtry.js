@@ -1,10 +1,10 @@
 import { Row } from "antd";
 import "./wifisoundbtry.css";
-function wifisoundbtry() {
+function WifiSoundBtry() {
   return (
     <>
-      <Row className="rightsidebtn"></Row>
+      <Row className="rightsidebtn">dsmfbsd</Row>
     </>
   );
 }
-export default wifisoundbtry;
+export default WifiSoundBtry;
