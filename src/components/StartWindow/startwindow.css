@@ -1,14 +1,13 @@
-.start-windows{
-    width:  640px;
-    height: 600px;
-    background-color: #222;
-    position: relative;
-    left: 27%;
-    bottom: 10px;
-    top: 10%;
-    border-radius: 10px;
-    /* display: grid;
+.start-windows {
+  width: 640px;
+  height: 600px;
+  background-color: #222;
+  position: absolute;
+  left: 27%;
+  bottom: 10px;
+  top: 10%;
+  border-radius: 10px;
+  /* display: grid;
     justify-content: center; */
-    /* align-items: center; */
-
+  /* align-items: center; */
 }

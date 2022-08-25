@@ -74,7 +74,6 @@ function DeskTop() {
     {
       lable: "New",
       icon: New,
-    
     },
     {
       lable: "Display settings",
@@ -92,7 +91,6 @@ function DeskTop() {
       lable: "Show more Options",
       icon: more,
     },
-   
   ];
   return (
     <>
@@ -140,8 +138,9 @@ function DeskTop() {
               </Col>
             </Row>
           ))}
+          <StartWindow />
         </Col>
-        <StartWindow/>
+
         <TaskBar />
       </Row>
     </>

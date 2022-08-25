@@ -9,8 +9,8 @@ function App() {
     <>
       {/* <DemoScreen /> */}
       {/* <TaskBar /> */}
-      {/* <DeskTop /> */}
-      <StartWindow/>
+      <DeskTop />
+      {/* <StartWindow/> */}
     </>
   );
 }
