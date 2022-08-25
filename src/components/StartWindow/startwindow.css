@@ -1,11 +1,11 @@
 .start-windows {
-  width: 640px;
-  height: 600px;
+  width: 600px;
+  height: 700px;
   background-color: #222;
   position: absolute;
-  left: 27%;
-  bottom: 10px;
-  top: 10%;
+  left: 31%;
+  bottom: 9%;
+  /* top: 10%; */
   border-radius: 10px;
   /* display: grid;
     justify-content: center; */
