@@ -17,6 +17,17 @@ import network from "../assets/desktop/icon/network.png";
 import reciclebin from "../assets/desktop/icon/reciclebin.png";
 import corme from "../assets/desktop/icon/corme.png";
 import dstpfolder from "../assets/desktop/icon/dstpfolder.png";
+import code from "../assets/desktop/icon/code.png";
+import figma from "../assets/desktop/icon/figma.png";
+import oneNote from "../assets/desktop/icon/oneNote.png";
+import music from "../assets/desktop/icon/music.png";
+import paint from "../assets/desktop/icon/paint.png";
+import store from "../assets/desktop/icon/store.png";
+import excel from "../assets/desktop/icon/excel.png";
+import Notepad from "../assets/desktop/icon/Notepad.png";
+import powerpoint from "../assets/desktop/icon/powerpoint.png";
+import vid from "../assets/desktop/icon/vid.png";
+import Microsoft from "../assets/desktop/icon/Microsoft-Edge.png";
 
 import "./desktop.css";
 import StartWindow from "../components/StartWindow/startwindow";
@@ -48,6 +59,10 @@ function DeskTop(props) {
       icon: corme,
     },
     {
+      folderName: "Floder",
+      icon: dstpfolder,
+    },
+    {
       folderName: "VS Code",
       // icon: code,
     },
@@ -71,6 +86,26 @@ function DeskTop(props) {
     {
       folderName: "Play Store",
       // icon: store,
+    },
+    {
+      folderName: "Excel",
+      icon: excel,
+    },
+    {
+      folderName: "Notepad",
+      icon: Notepad,
+    },
+    {
+      folderName: "Power Point",
+      icon: powerpoint,
+    },
+    {
+      folderName: "Video",
+      icon: vid,
+    },
+    {
+      folderName: "Microsoft-Edge",
+      icon: Microsoft,
     },
   ];
   const rightclickMenus = [
