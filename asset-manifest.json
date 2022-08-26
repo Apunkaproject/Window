@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Window/static/css/main.f81f505b.css",
+    "main.js": "/Window/static/js/main.c107c519.js",
+    "static/js/787.7e6343bc.chunk.js": "/Window/static/js/787.7e6343bc.chunk.js",
+    "static/media/background (1).jpg": "/Window/static/media/background (1).2b47c04f7e1d2448623e.jpg",
+    "static/media/background (6).jpg": "/Window/static/media/background (6).b515958a508fb4aaa437.jpg",
+    "static/media/background (4).jpg": "/Window/static/media/background (4).50741a57b25c1cd23b46.jpg",
+    "static/media/lockscreen.jpg": "/Window/static/media/lockscreen.7c09d441bb3b09bff347.jpg",
+    "static/media/Microsoft-Edge.png": "/Window/static/media/Microsoft-Edge.fd24400427d0006f83ff.png",
+    "static/media/network.png": "/Window/static/media/network.6fc5a45539193214dbe8.png",
+    "static/media/background (3).jpg": "/Window/static/media/background (3).33d7db6160fb11da66bb.jpg",
+    "static/media/background (2).jpg": "/Window/static/media/background (2).54a051293c7735b0570c.jpg",
+    "static/media/reciclebin.png": "/Window/static/media/reciclebin.58ed609dc7aa0e2ce7d1.png",
+    "static/media/destop.png": "/Window/static/media/destop.2043af80c0d93d3845ec.png",
+    "static/media/corme.png": "/Window/static/media/corme.3c4c3def8813270eb569.png",
+    "static/media/profil.png": "/Window/static/media/profil.f309b3fb34a6c6d6b0e6.png",
+    "static/media/background (5).jpg": "/Window/static/media/background (5).1639716140cd3ea52ae5.jpg",
+    "static/media/music.png": "/Window/static/media/music.81c76476c7d8ccf2e057.png",
+    "static/media/Notepad.png": "/Window/static/media/Notepad.cc0c869d624ee36180d3.png",
+    "static/media/vid.png": "/Window/static/media/vid.539080fba419adc17d04.png",
+    "static/media/figma.png": "/Window/static/media/figma.d41370247f475f3a0969.png",
+    "static/media/defAccount.png": "/Window/static/media/defAccount.e585b1a3c321f31446e6.png",
+    "static/media/dstpfolder.png": "/Window/static/media/dstpfolder.13d0d4d6504d97f68b00.png",
+    "static/media/folder.png": "/Window/static/media/folder.362da1d4f7c9bb9f025e.png",
+    "static/media/maximize.png": "/Window/static/media/maximize.5a1aaedd065d1850c497.png",
+    "index.html": "/Window/index.html",
+    "main.f81f505b.css.map": "/Window/static/css/main.f81f505b.css.map",
+    "main.c107c519.js.map": "/Window/static/js/main.c107c519.js.map",
+    "787.7e6343bc.chunk.js.map": "/Window/static/js/787.7e6343bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f81f505b.css",
+    "static/js/main.c107c519.js"
+  ]
+}
