@@ -1,5 +1,6 @@
-import { Row, Col } from "antd";
 import "./lockscreen.css";
+import { Row, Col } from "antd";
+import moment from "moment";
 function LockHead() {
   return (
     <>
@@ -20,14 +21,14 @@ function LockHead() {
             justify="center"
             style={{ width: "100%", fontSize: "100px", fontWeight: "600" }}
           >
-            12:30
+            <div>{moment().format("LT")}</div>
           </Row>
           <Row
             align="middle"
             justify="center"
             style={{ width: "100%", fontSize: "25px", fontWeight: "600" }}
           >
-            Wednesday,October 22
+            {moment().format("LL")}
           </Row>
         </Col>
       </Row>
