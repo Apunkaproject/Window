@@ -7,6 +7,8 @@ import StartWindow from "./components/StartWindow/startwindow";
 import Demo from "./demos/demos";
 import LockScreen from "./screens/LockScreen/lockscreen";
 import Login from "./screens/LockScreen/login";
+import WifiSoundBtry from "./components/wifisountbattery/wifisoundbtry";
+import SettingPage from "./screens/Settings/settings";
 function App() {
   return (
     <>
@@ -14,9 +16,11 @@ function App() {
       {/* <TaskBar /> */}
       {/* <DeskTop /> */}
       {/* <Demo /> */}
-      {/* <StartWindow/> */}
+      {/* <StartWindow /> */}
       {/* <LockScreen /> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <WifiSoundBtry /> */}
+      <SettingPage />
     </>
   );
 }

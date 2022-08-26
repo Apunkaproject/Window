@@ -1,5 +1,5 @@
 import { Row, Col, Image, Button, Modal } from "antd";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TaskBar from "../layout/taskbar";
 import viewlogo from "../assets/desktop/rightclick/view.png";
 import Draggable from "react-draggable";
@@ -40,7 +40,15 @@ function DeskTop(props) {
     // setTimeout(() => setIsRightClick(false), 250);s
     console.log(isRightClick);
   };
-
+  function Onlftclick() {
+    setIsRightClick(false);
+  }
+  useEffect(() => {
+    document.getElementById("desktop").addEventListener("click", OnLeftClick);
+  });
+  function OnLeftClick() {
+    setIsRightClick(false);
+  }
   const desktopfolder = [
     {
       folderName: "Desktop",
@@ -153,7 +161,7 @@ function DeskTop(props) {
         className="desk-top"
         style={{ width: "100%", height: "100%" }}
       >
-        <Col style={{ width: "100%", height: "100%" }}>
+        <Col id="desktop" style={{ width: "100%", height: "100%" }}>
           {isRightClick && (
             <Col
               className="onrightclick"

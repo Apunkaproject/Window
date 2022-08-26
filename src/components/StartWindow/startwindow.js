@@ -1,4 +1,4 @@
-import { Row, Col, Image,Input } from "antd";
+import { Row, Col, Image, Input } from "antd";
 import "./startwindow.css";
 import edge from "../../assets/Taskbar/edge.png";
 import word from "../../assets/desktop/icon/word.png";
@@ -14,8 +14,20 @@ import Notepad from "../../assets/desktop/icon/Notepad.png";
 import video from "../../assets/desktop/icon/vid.png";
 import corme from "../../assets/desktop/icon/corme.png";
 import userprofile from "../../assets/ui/defAccount.png";
+import power from "../../assets/ui/power.png";
+import settings from "../../assets/ui/settings.png";
+import downloads from "../../assets/ui/dustbin.png";
+import searchs from "../../assets/ui/searchs.png";
+import { useState } from "react";
+import PowerBtn from "../powerbtn/powerbtn";
+
 const { Search } = Input;
 function StartWindow() {
+  const [ispowerbtn, setIspowerbtn] = useState(false);
+  function PowerButton() {
+    setIspowerbtn(!ispowerbtn);
+  }
+
   const onSearch = (value) => console.log(value);
   const iconsize = 35;
   return (
@@ -447,24 +459,20 @@ function StartWindow() {
             </Row>
             <Row align="middle" justify="space-between">
               <button className="profilemorebtn">
-                <Image width={20} preview={false} src={edge} />
+                <Image width={20} preview={false} src={searchs} />
               </button>
+
               <button className="profilemorebtn">
-                <Image width={20} preview={false} src={edge} />
+                <Image width={20} preview={false} src={settings} />
               </button>
-              <button className="profilemorebtn">
-                <Image width={20} preview={false} src={edge} />
-              </button>
-              <button className="profilemorebtn">
-                <Image width={20} preview={false} src={edge} />
-              </button>
-              <button className="profilemorebtn">
-                <Image width={20} preview={false} src={edge} />
+              <button className="profilemorebtn" onClick={PowerButton}>
+                <Image width={20} preview={false} src={power} />
               </button>
             </Row>
           </Row>
           {/* end profile section  */}
         </Col>
+        {ispowerbtn && <PowerBtn />}
       </Row>
     </>
   );

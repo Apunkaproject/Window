@@ -1,0 +1,18 @@
+.power-btn {
+  width: 150px;
+
+  background-color: rgb(59, 59, 59);
+  position: absolute;
+  bottom: 9%;
+  right: 6%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.powerbtn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.powerbtn:hover {
+  background-color: rgba(95, 95, 95, 0.638);
+}

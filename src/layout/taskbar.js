@@ -26,7 +26,7 @@ function TaskBar() {
   // battery funcation
   const batteryState = useBattery();
   const [ischarging, setIscharging] = useState();
-  const name3 = "smnsdhf";
+
   useEffect(() => {
     let timer = null;
 
@@ -74,15 +74,26 @@ function TaskBar() {
   };
   // modal end
   // windows btn
-  const [iswbtnclick, setWbtnclick] = useState(true);
+  const [iswbtnclick, setWbtnclick] = useState(false);
   function Wbtnclick() {
     setWbtnclick(!iswbtnclick);
     console.log(iswbtnclick);
   }
+
   //windows btn nd
+  // on right click
+
+  function OnLeftClick() {
+    setWbtnclick(false);
+    setIswificlick(false);
+  }
+  // on right click end
+  useEffect(() => {
+    document.getElementById("desktop").addEventListener("click", OnLeftClick);
+  });
 
   // wifi section
-  const [iswificlick, setIswificlick] = useState(true);
+  const [iswificlick, setIswificlick] = useState(false);
   const Onwificlick = () => {
     console.log("Wifi click", iswificlick);
     setIswificlick(!iswificlick);

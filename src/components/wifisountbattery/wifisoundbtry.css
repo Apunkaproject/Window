@@ -1,12 +1,13 @@
 .rightsidebtn {
   width: 350px;
-  height: 400px;
+  /* height: 400px; */
   background-color: rgba(34, 34, 34, 0.803);
   border-radius: 10px;
   position: absolute;
   right: 2%;
   bottom: 7%;
-  animation: slideup 0.5s ;
+  animation: slideup 0.5s;
+  padding: 30px 20px;
 }
 @keyframes slideup {
   0% {
@@ -15,4 +16,15 @@
   100% {
     bottom: 7%;
   }
+}
+
+.wifirightbtn {
+  height: 50px;
+  width: 90px;
+  /* padding: 10px; */
+  border-radius: 10px;
+  background-color: rgba(61, 61, 61, 0.725);
+}
+.wifirightbtn:hover {
+  background-color: rgba(95, 95, 95, 0.638);
 }
