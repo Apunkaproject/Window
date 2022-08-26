@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      h2 {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <h2>Hsdfkjhk</h2>
-  </body>
-</html>
+<h1> Window 11 - clone by:- Ni30 roy</h1>
+<p> this is not a origanal window this is a clone it is made for a react project </p>
+<p>This open source project is made in the hope to replicate the Windows 11 desktop experience on web, using standard web technologies like React, CSS (SCSS), and JS.</p>
