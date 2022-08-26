@@ -20,6 +20,7 @@ import downloads from "../../assets/ui/dustbin.png";
 import searchs from "../../assets/ui/searchs.png";
 import { useState } from "react";
 import PowerBtn from "../powerbtn/powerbtn";
+import SettingPage from "../../screens/Settings/settings";
 
 const { Search } = Input;
 function StartWindow() {
@@ -30,8 +31,13 @@ function StartWindow() {
 
   const onSearch = (value) => console.log(value);
   const iconsize = 35;
+  const [issetting, setissetting] = useState(false);
+  function Settingclick() {
+    setissetting(!issetting);
+  }
   return (
     <>
+      {issetting && <SettingPage />}
       <Row className="start-windows">
         <Col style={{ width: "100%", height: "100%" }}>
           <Row align="middle" style={{ width: "100%" }}>
@@ -462,7 +468,7 @@ function StartWindow() {
                 <Image width={20} preview={false} src={searchs} />
               </button>
 
-              <button className="profilemorebtn">
+              <button className="profilemorebtn" id="settingbtn1">
                 <Image width={20} preview={false} src={settings} />
               </button>
               <button className="profilemorebtn" onClick={PowerButton}>

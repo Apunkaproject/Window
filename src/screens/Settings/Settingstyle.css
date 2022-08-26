@@ -1,0 +1,17 @@
+.menu-bar {
+  color: white;
+  height: 30px;
+  background-color: rgba(34, 34, 34, 0.803);
+  padding: 0px 10px;
+}
+
+.minimize:hover {
+  background-color: rgba(102, 102, 102, 0.352);
+}
+.windowsapp {
+  border: 1px solid orange;
+  position: absolute;
+  top: 0;
+  background-color: rgba(32, 32, 32, 0.75);
+  height: 93%;
+}

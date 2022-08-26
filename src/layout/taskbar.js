@@ -21,11 +21,17 @@ import moment from "moment";
 import DeskTop from "../desktop/desktop";
 import StartWindow from "../components/StartWindow/startwindow";
 import WifiSoundBtry from "../components/wifisountbattery/wifisoundbtry";
+import SettingPage from "../screens/Settings/settings";
 
 function TaskBar() {
   // battery funcation
   const batteryState = useBattery();
   const [ischarging, setIscharging] = useState();
+  const [isSetting, setIssetting] = useState(false);
+  function settingbtnclick() {
+    setIssetting(!isSetting);
+    setWbtnclick(false);
+  }
 
   useEffect(() => {
     let timer = null;
@@ -49,7 +55,6 @@ function TaskBar() {
   };
   window.addEventListener("online", imonline);
   window.addEventListener("offline", imoffline);
-
   console.log(isonline);
   const HandleDate = () => {
     console.log("hello");
@@ -98,6 +103,10 @@ function TaskBar() {
     console.log("Wifi click", iswificlick);
     setIswificlick(!iswificlick);
   };
+  const [isExcelClick, SetIsExcelClick] = useState(false);
+  function ExcelClick() {
+    SetIsExcelClick(!isExcelClick);
+  }
   return (
     <>
       <Modal
@@ -113,6 +122,7 @@ function TaskBar() {
       </Modal>
       {iswbtnclick && <StartWindow />}
       {iswificlick && <WifiSoundBtry />}
+      {isSetting && <SettingPage />}
       <Row align="middle" justify="center" className="task-bar">
         <button className="taskbar-icon" onClick={Wbtnclick}>
           <Image
@@ -122,7 +132,7 @@ function TaskBar() {
             src={windows11}
           />
         </button>
-        <button className="taskbar-icon">
+        <button className="taskbar-icon" onClick={ExcelClick}>
           <Image
             width={iconsize}
             preview={false}
@@ -163,7 +173,7 @@ function TaskBar() {
             src={figma}
           />
         </button>
-        <button className="taskbar-icon">
+        <button className="taskbar-icon" onClick={settingbtnclick}>
           <Image
             width={iconsize}
             preview={false}

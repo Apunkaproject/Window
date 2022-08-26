@@ -17,10 +17,10 @@ function App() {
       {/* <DeskTop /> */}
       {/* <Demo /> */}
       {/* <StartWindow /> */}
-      {/* <LockScreen /> */}
+      <LockScreen />
       {/* <Login /> */}
       {/* <WifiSoundBtry /> */}
-      <SettingPage />
+      {/* <SettingPage /> */}
     </>
   );
 }
