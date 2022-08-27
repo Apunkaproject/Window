@@ -1,7 +1,14 @@
 import { Row, Image, Col, Slider } from "antd";
 import "./wifisoundbtry.css";
 import wifi from "../../assets/ui/wifi.png";
-import right from "../../assets/ui/right.png";
+import bluetooth from "../../assets/ui/bluetooth.png";
+import airplane from "../../assets/ui/airplane.png";
+import Batrysaver from "../../assets/ui/Batrysaver.png";
+import moon from "../../assets/ui/moon.png";
+import accessibility from "../../assets/ui/accessibility.png";
+import brightness from "../../assets/ui/brightness.png";
+import audio3 from "../../assets/ui/audio3.png";
+
 function WifiSoundBtry() {
   return (
     <>
@@ -56,7 +63,7 @@ function WifiSoundBtry() {
                     width={20}
                     preview={false}
                     className="profile-image"
-                    src={wifi}
+                    src={bluetooth}
                   />
                 </Row>
                 <Row
@@ -68,7 +75,7 @@ function WifiSoundBtry() {
                     fontWeight: "500",
                   }}
                 >
-                  Groot 5G
+                  Bluetooth
                 </Row>
               </button>
             </Col>
@@ -88,7 +95,7 @@ function WifiSoundBtry() {
                     width={20}
                     preview={false}
                     className="profile-image"
-                    src={wifi}
+                    src={airplane}
                   />
                 </Row>
                 <Row
@@ -100,7 +107,7 @@ function WifiSoundBtry() {
                     fontWeight: "500",
                   }}
                 >
-                  Groot 5G
+                  Airplane
                 </Row>
               </button>
             </Col>
@@ -126,7 +133,7 @@ function WifiSoundBtry() {
                     width={20}
                     preview={false}
                     className="profile-image"
-                    src={wifi}
+                    src={Batrysaver}
                   />
                 </Row>
                 <Row
@@ -138,7 +145,7 @@ function WifiSoundBtry() {
                     fontWeight: "500",
                   }}
                 >
-                  Groot 5G
+                  Battery Saver
                 </Row>
               </button>
             </Col>
@@ -158,7 +165,7 @@ function WifiSoundBtry() {
                     width={20}
                     preview={false}
                     className="profile-image"
-                    src={wifi}
+                    src={moon}
                   />
                 </Row>
                 <Row
@@ -170,7 +177,7 @@ function WifiSoundBtry() {
                     fontWeight: "500",
                   }}
                 >
-                  Groot 5G
+               Focus assist 
                 </Row>
               </button>
             </Col>
@@ -190,7 +197,7 @@ function WifiSoundBtry() {
                     width={20}
                     preview={false}
                     className="profile-image"
-                    src={wifi}
+                    src={accessibility}
                   />
                 </Row>
                 <Row
@@ -202,7 +209,7 @@ function WifiSoundBtry() {
                     fontWeight: "500",
                   }}
                 >
-                  Groot 5G
+                  Accessibility
                 </Row>
               </button>
             </Col>
@@ -218,7 +225,7 @@ function WifiSoundBtry() {
               width={20}
               preview={false}
               className="profile-image"
-              src={wifi}
+              src={brightness}
             />
 
             <Slider defaultValue={10} style={{ width: "85%" }} />
@@ -233,7 +240,7 @@ function WifiSoundBtry() {
               width={20}
               preview={false}
               className="profile-image"
-              src={wifi}
+              src={audio3}
             />
 
             <Slider defaultValue={10} style={{ width: "85%" }} />
